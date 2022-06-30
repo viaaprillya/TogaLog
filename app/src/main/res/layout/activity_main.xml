@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/button_about"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:layout_toEndOf="@id/txtkatalog"
+        android:background="@color/dark_green"
+        android:src="@drawable/about_logo"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/txtkatalog"
+        android:layout_width="325dp"
+        android:layout_height="95dp"
+        android:background="@color/dark_green"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:text="@string/halaman_awal"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_toga"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtkatalog"
+        tools:listitem="@layout/item_row_toga" />
+
+</RelativeLayout>

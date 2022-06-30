@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TogaLog</string>
+    <string name="splash_screen_logo">Splash Screen Logo</string>
+    <string name="nama_lokal">Nama Lokal</string>
+    <string name="nama_ilmiah">Nama Ilmiah</string>
+    <string name="halaman_awal">Katalog Tanaman Toga</string>
+    <string name="togalog">Toga Log</string>
+    <string name="khasiat">Khasiat</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="via_aprillya">Via Aprillya</string>
+    <string name="email">valleyinandora@gmail.com</string>
+    <string name="toga_about">Aplikasi Katalog Tanaman Obat Keluarga</string>
+    <string name="oleh">oleh</string>
+
+
+</resources>
